@@ -4,3 +4,9 @@ C:\Sudoku\SudokuSolver\SudokuSolver\bin\Debug\SudokuSolver.pdb
 C:\Sudoku\SudokuSolver\SudokuSolver\obj\Debug\SudokuSolver.csprojResolveAssemblyReference.cache
 C:\Sudoku\SudokuSolver\SudokuSolver\obj\Debug\SudokuSolver.exe
 C:\Sudoku\SudokuSolver\SudokuSolver\obj\Debug\SudokuSolver.pdb
+C:\Users\coop1\Source\Repos\SudokuSolver\SudokuSolver\bin\Debug\SudokuSolver.exe.config
+C:\Users\coop1\Source\Repos\SudokuSolver\SudokuSolver\obj\Debug\SudokuSolver.exe
+C:\Users\coop1\Source\Repos\SudokuSolver\SudokuSolver\obj\Debug\SudokuSolver.pdb
+C:\Users\coop1\Source\Repos\SudokuSolver\SudokuSolver\bin\Debug\SudokuSolver.exe
+C:\Users\coop1\Source\Repos\SudokuSolver\SudokuSolver\bin\Debug\SudokuSolver.pdb
+C:\Users\coop1\Source\Repos\SudokuSolver\SudokuSolver\obj\Debug\SudokuSolver.csprojResolveAssemblyReference.cache
