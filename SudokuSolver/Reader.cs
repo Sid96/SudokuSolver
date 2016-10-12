@@ -27,19 +27,25 @@ namespace SudokuSolver
                 if (ValidateFile(fileContent))
                 {
                     var solution = SudokuSolver.Solve(fileContent);
+                    Console.WriteLine();
                     if (solution == null)
                     {
                         Console.WriteLine("No Solutions found");
                     }
                     else
                     {
-                        foreach (var i in solution)
+                        using (var streamWriter = new StreamWriter(Path.Combine(directory, "solution.txt")))
                         {
-                            foreach(var j in i)
+                            foreach (var i in solution)
                             {
-                                Console.Write(j);
+                                var output = "";
+                                foreach (var j in i)
+                                {
+                                    output += j;
+                                }
+                                Console.WriteLine(output);
+                                streamWriter.WriteLine(output);
                             }
-                            Console.WriteLine();
                         }
                     }
 
