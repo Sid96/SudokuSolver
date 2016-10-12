@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Configuration;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace SudokuSolver
 {
@@ -18,17 +19,18 @@ namespace SudokuSolver
             foreach (var file in files)
             {
                 Console.WriteLine(file);
-                if(ValidateFile(file))
+                var fileContent = File.ReadAllLines(file);
+                if (ValidateFile(fileContent))
                 {
-                    Console.WriteLine("good");
+                    var solution = SudokuSolver.Solve(fileContent);
+
                 }
             }
             Console.ReadKey();
         }
 
-        static bool ValidateFile(string file)
-        {
-            var fileContent = File.ReadAllLines(file);
+        static bool ValidateFile(string[] fileContent)
+        {                                                       
             if (fileContent.Length == 9)
             {
                 foreach (var line in fileContent)

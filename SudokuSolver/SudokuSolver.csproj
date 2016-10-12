@@ -42,9 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GridInfo.cs" />
     <Compile Include="Reader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Solver.cs" />
+    <Compile Include="SudokuSolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
